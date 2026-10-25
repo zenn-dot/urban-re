@@ -1,0 +1,13 @@
+{
+  "name": "urban-re-start",
+  "version": "0.2.0",
+  "description": "URBAN RE:START prototype with registration, login, profile and saved properties",
+  "private": true,
+  "license": "UNLICENSED",
+  "main": "server/index.js",
+  "engines": { "node": ">=22.13" },
+  "scripts": {
+    "start": "node server/index.js",
+    "test": "node --test --no-warnings test/*.test.js"
+  }
+}
